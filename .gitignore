@@ -1,22 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@mpearcy Sign out
-2,754
-81,086 39,082 github/gitignore
- Code  Pull requests 88  Projects 0  Insights
-gitignore/Android.gitignore
-@shiftkey shiftkey Merge pull request #2927 from Yousha/master
-042be9d on Jan 26
-@shiftkey @arcresu @tral @friederbluemle @callingshotgun @AdrianVovk @wRorsjakz @malhobayyeb @Zarkopafilis @Yousha @whoshuu @evorion @szpssky @aslamanver @SamWhited @esaalii @exarus @neetrath @Neargye @mquigley @kevinmost @vitorprado @jsoref @jshou @HIPERCUBE @jschmid
-81 lines (63 sloc)  1.2 KB
-
 # Built application files
 *.apk
 *.ap_
@@ -98,16 +79,4 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
-# lint/reports/
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+lint/reports/
