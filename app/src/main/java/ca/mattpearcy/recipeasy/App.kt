@@ -14,7 +14,7 @@ class App : Application() {
             // declare used Android context
             androidContext(this@App)
             // declare modules
-            modules(listOf(networkModule, viewModelModule))
+            modules(diModule)
         }
 
 

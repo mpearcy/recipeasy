@@ -7,17 +7,9 @@ import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.core.module.Module
 import org.koin.dsl.module
 
-private val recipePuppyApi: RecipePuppyApi = RecipePuppyApi.create()
-
-
-val networkModule = module {
-    recipePuppyApi}
-
-
-
-
 // declared ViewModel using the viewModel keyword
-val viewModelModule : Module = module {
+val diModule : Module = module {
+    single { RecipePuppyApi.create()}
     viewModel { IngredientSearchViewModel(get()) }
-    single { RecipeRepo.getInstance(recipePuppyApi) }
+    single { RecipeRepo.getInstance(get()) }
 }
