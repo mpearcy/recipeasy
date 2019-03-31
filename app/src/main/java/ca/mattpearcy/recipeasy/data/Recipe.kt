@@ -6,7 +6,3 @@ data class Recipe(
     val href: String,
     val thumbnail: String? = null
 )
-
-data class SearchResults(
-    val results: List<Recipe>
-)

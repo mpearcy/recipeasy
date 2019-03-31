@@ -16,7 +16,5 @@ class App : Application() {
             // declare modules
             modules(diModule)
         }
-
-
     }
 }

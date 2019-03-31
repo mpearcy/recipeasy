@@ -1,6 +1,5 @@
 package ca.mattpearcy.recipeasy.api
 
-import ca.mattpearcy.recipeasy.data.SearchResults
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
 import okhttp3.OkHttpClient
@@ -13,7 +12,7 @@ import retrofit2.http.Query
 interface RecipePuppyApi {
 
     @GET("api/")
-    fun recipeSearch(@Query("i") ingredients: String): Deferred<Response<SearchResults>>
+    fun recipeSearch(@Query("i") ingredients: String): Deferred<Response<SearchResult>>
 
     companion object {
         fun create() : RecipePuppyApi = Retrofit.Builder()
