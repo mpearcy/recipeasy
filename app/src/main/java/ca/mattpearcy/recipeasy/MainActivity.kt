@@ -14,8 +14,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 class MainActivity : AppCompatActivity() {
 
     private val ingredientSearchViewModel : IngredientSearchViewModel by viewModel()
-
-    internal var adapter: ResultsAdapter = object : ResultsAdapter() {
+    private var adapter: ResultsAdapter = object : ResultsAdapter() {
 
         override fun openLink(link: String) {
             val i = Intent(Intent.ACTION_VIEW)
