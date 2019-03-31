@@ -1,4 +1,4 @@
-# Simple Android App Example
+# Recipe Search
 
 This app is a implentation of a recipe search and is intended to explore Kotlin, MVVM and android architecture components.  It takes ingredients from the user and displays that contain those ingredients in a list.
 
